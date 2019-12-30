@@ -1,13 +1,21 @@
 extends Node2D
 
-# Declare member variables here. Examples:
-# var a = 2
-# var b = "text"
 
-# Called when the node enters the scene tree for the first time.
-func _ready():
-	pass # Replace with function body.
 
-# Called every frame. 'delta' is the elapsed time since the previous frame.
+#Indented Block Expected
+
+#func _ready():
+	#pass
+
+#Missing , or ), click next to ()s
+
+#func _ready():
+	#get_node(str(12)).expand_blob(int("67"))
+
+#Undefined Variables
+
 #func _process(delta):
-#	pass
+	#var blips = 2
+
+#func _ready():
+	#blips += 1
