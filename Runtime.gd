@@ -1,13 +1,25 @@
 extends Node2D
 
-# Declare member variables here. Examples:
-# var a = 2
-# var b = "text"
+#Invalid operands in operator
+#func _ready():
+	#var blip = $TextEdit.text
+	#var blop = "6"
+	#print(blip + blop)
 
-# Called when the node enters the scene tree for the first time.
+#Nil Error
+
+#var blopz
+
+#func _ready():
+	#if blopz != null:
+		#print(1 + blopz)
+	#blopz = 0
+
+#func _ready():
+	#$TextEdlt.text = "Who"
+
+#Miscounting Arrays
+
 func _ready():
-	pass # Replace with function body.
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-#func _process(delta):
-#	pass
+	var Array_ = [5, 8]
+	print(Array_[0])
